@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="form-contol" style="margin-top:50px">
+    @using (Html.BeginForm())
+    {
+        <div class="form-contol">
+            <div>
+                <label><b>Usuario: </b></label><br />
+                <input type="text" name="usuario" />
+            </div>
+            <div>
+                <label><b>Contraseña: </b></label><br />
+                <input type="text" name="password" />
+            </div>
+            <button class="btn-default">Login</button>
+        </div>
+    }
+</div>
